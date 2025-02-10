@@ -1,18 +1,17 @@
 {
-  "productName": "Magical Deals",
+  "productName": "Zouzzza",
   "theme": {
-    "isDark": true,
-    "color": "teal"
+    "color": "blue",
+    "isDark": true
   },
   "heroSection": {
-    "title": [
-      { "text": "Create the best" },
-      { "text": "App", "isGradient": true },
-      { "text": "in the world" }
-    ],
-    "description": "Fazzle.ia helps companies expand globally with seamless collaboration, making it easier to build and manage teams in 180+ countries.",
-    "imageUrl": "https://essentials.pixfort.com/saas/wp-content/uploads/sites/3/2020/05/saas-intro-mockup.png",
-    "buttonText": "Get Started"
+    "title": {
+      "text": "Zouzzza – Your Ultimate Zonemon Catcher",
+      "isGradient": false
+    },
+    "description": "Unleash your potential with Zouzzza and catch zonemons like never before, all for free!",
+    "imageUrl": "http://maga.png",
+    "buttonText": "Start your journey here!"
   },
   "pricing": {
     "settings": {
@@ -160,12 +159,18 @@
       }
     ]
   },
-
   "problemSection": {
     "title": [
-      { "text": "Create the best" },
-      { "text": "Gadget", "isGradient": true },
-      { "text": "in the world" }
+      {
+        "text": "Create the best"
+      },
+      {
+        "text": "Gadget",
+        "isGradient": true
+      },
+      {
+        "text": "in the world"
+      }
     ],
     "description": "Make data-driven decisions about where to invest your marketing budget, when to hire, and where there are opportunities for improvement.",
     "problem": {
@@ -228,31 +233,67 @@
     "menu": {
       "title": "Menu",
       "items": [
-        { "name": "Home", "route": "/" },
-        { "name": "Services", "route": "/services" },
-        { "name": "Products", "route": "/products" },
-        { "name": "Pricing", "route": "/pricing" }
+        {
+          "name": "Home",
+          "route": "/"
+        },
+        {
+          "name": "Services",
+          "route": "/services"
+        },
+        {
+          "name": "Products",
+          "route": "/products"
+        },
+        {
+          "name": "Pricing",
+          "route": "/pricing"
+        }
       ]
     },
     "resources": {
       "title": "Resources",
       "items": [
-        { "name": "Documentation", "route": "/docs" },
-        { "name": "API Reference", "route": "/api" }
+        {
+          "name": "Documentation",
+          "route": "/docs"
+        },
+        {
+          "name": "API Reference",
+          "route": "/api"
+        }
       ]
     },
     "legal": {
       "title": "Legal Information",
       "items": [
-        { "name": "Privacy Policy", "route": "/privacy" },
-        { "name": "Terms & Conditions", "route": "/terms" }
+        {
+          "name": "Privacy Policy",
+          "route": "/privacy"
+        },
+        {
+          "name": "Terms & Conditions",
+          "route": "/terms"
+        }
       ]
     },
     "socialLinks": [
-      { "name": "facebook", "link": "#" },
-      { "name": "tiktok", "link": "#" },
-      { "name": "vk", "link": "#" },
-      { "name": "dribbble", "link": "#" }
+      {
+        "name": "facebook",
+        "link": "#"
+      },
+      {
+        "name": "tiktok",
+        "link": "#"
+      },
+      {
+        "name": "vk",
+        "link": "#"
+      },
+      {
+        "name": "dribbble",
+        "link": "#"
+      }
     ],
     "copyright": "© 2024 Bekets. All Rights Reserved."
   },
